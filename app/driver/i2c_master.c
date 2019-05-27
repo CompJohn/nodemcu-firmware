@@ -29,7 +29,7 @@ LOCAL uint8 pinSCL = 15;
  * Parameters   : uint8 SDA
  *                uint8 SCL
  * Returns      : NONE
-*******************************************************************************/
+****************************************************************/
 LOCAL void ICACHE_FLASH_ATTR
 i2c_master_setDC(uint8 SDA, uint8 SCL)
 {
